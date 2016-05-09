@@ -1,4 +1,4 @@
-package ancientlore.snake;
+package com.ancientlore.snake;
 
 class GameSound {
     private int index;

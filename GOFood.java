@@ -1,4 +1,4 @@
-package ancientlore.snake;
+package com.ancientlore.snake;
 
 import android.graphics.Rect;
 class GOFood extends GameObject {
