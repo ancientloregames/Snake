@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ActivitySettings">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_grid"
+        android:id="@+id/checkBoxShowGrid"
+        android:checked="false"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_touch_panels"
+        android:id="@+id/checkBoxShowPanels"
+        android:checked="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxShowGrid"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:id="@+id/buttonSettingsApply"
+        android:layout_below="@+id/checkBoxShowPanels"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/input_mode"
+        android:id="@+id/textViewInputModeLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonSettingsApply"
+        android:layout_alignStart="@+id/buttonSettingsApply" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewInputModeLabel"
+        android:layout_alignLeft="@+id/textViewInputModeLabel"
+        android:layout_alignStart="@+id/textViewInputModeLabel"
+        android:id="@+id/radioGroup"
+        android:background="#2d2d2d">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/touch"
+            android:id="@+id/radioButtonTouch"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accelerometer"
+            android:id="@+id/radioButtonAccelerometer"
+            android:checked="false" />
+    </RadioGroup>
+</RelativeLayout>

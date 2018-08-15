@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">AL Snake</string>
+    <string name="resume">Resume</string>
+    <string name="new_game">New Game</string>
+    <string name="settings">Settings</string>
+    <string name="show_grid">Show grid</string>
+    <string name="show_touch_panels">Show touch panels</string>
+    <string name="apply">Apply</string>
+    <string name="play">Play!</string>
+    <string name="al_snake_logo" translatable="false">AL Snake Logo</string>
+    <string name="hi_score" translatable="false">0</string>
+    <string name="hi_score_label">HiScore:</string>
+    <string name="input_mode">Input Mode:</string>
+    <string name="touch">Touch</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="ingame_score">Score</string>
+    <string name="ingame_lives">Lives</string>
+    <string name="ingame_tut_pause">Pause</string>
+    <string name="ingame_tut_line_1">Tap on the screen to change snake direction.</string>
+    <string name="ingame_tut_line_2">You can change input type in Settings.</string>
+    <string name="ingame_tut_line_3">There you can switch and try accelerometer.;)</string>
+    <string name="ingame_tut_line_end">[Tap on screen, to start game]</string>
+</resources>

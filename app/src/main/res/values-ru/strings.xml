@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apply">Применить</string>
+    <string name="hi_score_label">Лучший счёт:</string>
+    <string name="new_game">Новая игра</string>
+    <string name="play">Играть!</string>
+    <string name="resume">Продолжить</string>
+    <string name="settings">Настройки</string>
+    <string name="show_grid">Отображать сетку</string>
+    <string name="show_touch_panels">Отображать панели касания</string>
+    <string name="input_mode">Метод ввода:</string>
+    <string name="accelerometer">Акселерометр</string>
+    <string name="touch">Прикосновение</string>
+    <string name="ingame_score">Счёт</string>
+    <string name="ingame_lives">Жизни</string>
+    <string name="ingame_tut_pause">Пауза</string>
+    <string name="ingame_tut_line_end">[Нажмите на экран, для начала]</string>
+    <string name="ingame_tut_line_3">Вы можете именить способ ввода.</string>
+    <string name="ingame_tut_line_1">Нажимайте на соответсвующие части экрана,</string>
+    <string name="ingame_tut_line_2">чтобы двигать змейку. В настройках, </string>
+</resources>
